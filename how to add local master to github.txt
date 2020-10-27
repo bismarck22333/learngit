@@ -1,0 +1,8 @@
+push an existing repository from the command line:
+1.git remote add origin https://github.com/bismarck22333/try.git
+2.git branch -M main
+3.git push -u origin main
+
+之后只要本地作了提交，就可以通过命令：
+git push origin master
+把本地master分支的最新修改推送至GitHub
